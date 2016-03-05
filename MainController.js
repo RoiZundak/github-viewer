@@ -13,7 +13,7 @@
 
         var countdownInterval = null;
         var startCountdown = function(){
-            countdownInterval = $interval(decrementCountdown, 10000, $scope.countdown);
+            countdownInterval = $interval(decrementCountdown, 100, $scope.countdown);
         };
 
         $scope.search = function(username) {
